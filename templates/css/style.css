@@ -1,0 +1,83 @@
+body{
+	background: #f1f1f1;
+	margin: 0px;
+	padding: 0px;
+}
+h3{margin: 0px;}
+h3{
+	font-family: Georgia,Verdana,Arial;
+	font-size: 24px;
+	font-weight: normal;
+	color: #444;
+}
+
+div#content{
+	max-width: 1100px;
+	margin: 0 auto;
+
+	padding-bottom: 40px;
+	padding-top: 20px;
+	
+}
+
+header#encabezado{
+	
+	background: #444;
+	color: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+nav#menu{
+	background: #e1e1e1;
+	border-left: solid 1px #bbb;
+	border-right: solid 1px #bbb;
+}
+
+nav#menu ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	list-style: none;
+	
+}
+nav#menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+
+}
+nav#menu ul li a{
+	color: #666;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 16px;
+}
+nav#menu ul li a:hover{
+	text-decoration: underline;
+}
+nav#menu ul li a.active{
+	text-decoration: underline;
+}
+
+section#cuerpo{
+	background: #fff;
+	min-height: 600px;
+	border-left: solid 1px #bbb;
+	border-right: solid 1px #bbb;
+	padding: 20px;
+}
+
+p{
+	font-family: Verdana,Arial;
+	font-size: 16px;
+	text-align: justify;
+	color: #666;
+	padding: 10px 20px 10px 20px;
+}
+
+footer#pie{
+	background: #444;
+	height: 200px;
+}

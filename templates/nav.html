@@ -1,0 +1,21 @@
+<ul>
+	{% ifequal current_menu 1 %}
+	<li><a href="/home/" class="active">Home</a></li>
+	{% else %}
+	<li><a href="/home/" class="">Home</a></li>
+	{% endifequal %}
+
+	{% ifequal current_menu 2 %}
+	<li><a href="/news/" class="active">News</a></li>
+	{% else %}
+	<li><a href="/news/" class="">News</a></li>
+	{% endifequal %}
+
+	{% ifequal current_menu 3 %}
+	<li><a href="/about/" class="active">About</a></li>
+	{% else %}
+	<li><a href="/about/" class="">About</a></li>
+	{% endifequal %}
+
+
+</ul>
